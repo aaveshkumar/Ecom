@@ -11,10 +11,25 @@
             <a href="products.php" class="nav-link text-white">Products</a>
         </li>
         <li class="nav-item mb-2">
+            <a href="categories.php" class="nav-link text-white">Categories</a>
+        </li>
+        <li class="nav-item mb-2">
             <a href="orders.php" class="nav-link text-white">Orders</a>
         </li>
         <li class="nav-item mb-2">
             <a href="users.php" class="nav-link text-white">Users</a>
+        </li>
+        <li class="nav-item mb-2">
+            <a href="reviews.php" class="nav-link text-white">Reviews</a>
+        </li>
+        <li class="nav-item mb-2">
+            <a href="coupons.php" class="nav-link text-white">Coupons</a>
+        </li>
+        <li class="nav-item mb-2">
+            <a href="blog.php" class="nav-link text-white">Blog</a>
+        </li>
+        <li class="nav-item mb-2">
+            <a href="settings.php" class="nav-link text-white">Settings</a>
         </li>
         <li class="nav-item mb-2">
             <a href="../index.php" class="nav-link text-white">Back to Shop</a>
