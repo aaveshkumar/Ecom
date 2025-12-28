@@ -29,6 +29,12 @@
             <a href="blog.php" class="nav-link text-white">Blog</a>
         </li>
         <li class="nav-item mb-2">
+            <a href="messages.php" class="nav-link text-white">Messages</a>
+        </li>
+        <li class="nav-item mb-2">
+            <a href="analytics.php" class="nav-link text-white">Analytics</a>
+        </li>
+        <li class="nav-item mb-2">
             <a href="settings.php" class="nav-link text-white">Settings</a>
         </li>
         <li class="nav-item mb-2">
