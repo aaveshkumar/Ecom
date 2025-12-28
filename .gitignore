@@ -1,0 +1,25 @@
+# PHP
+vendor/
+composer.phar
+composer.lock
+.php_cs.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+.tmp/
+temp/
+tmp/
