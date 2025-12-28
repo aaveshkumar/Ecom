@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="admin-wrapper">
-        <?php include 'partials/sidebar.php'; ?>
+        <?php include './partials/sidebar.php'; ?>
         <main class="admin-content">
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h1>Blog Posts</h1>

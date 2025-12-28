@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="admin-wrapper">
-        <?php include 'partials/sidebar.php'; ?>
+        <?php include './partials/sidebar.php'; ?>
         <main class="admin-content">
             <h1 class="mb-4">Store Settings</h1>
             <div class="card p-4">

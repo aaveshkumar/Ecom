@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="admin-wrapper">
-        <?php include 'partials/sidebar.php'; ?>
+        <?php include './partials/sidebar.php'; ?>
         <main class="admin-content">
             <h1>Dashboard</h1>
             <div class="row mt-4">

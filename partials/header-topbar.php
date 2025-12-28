@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="header-top-area">
                     <div class="top-bar-links">
-                        <a href="admin/index.php" class="text-white me-3"><i class="rt-user"></i> Admin Panel</a>
+                        <a href="./admin/index.php" class="text-white me-3"><i class="rt-user"></i> Admin Panel</a>
                     </div>
                     <div class="slider-div">
                         <div class="swiper rts-topSlide1">
