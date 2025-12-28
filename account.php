@@ -45,10 +45,10 @@
                         Address</button>
                     <button class="filter-btn" data-show=".accountdtls"><i class="fal fa-user"></i> Account
                         Details</button>
-                    <a href="wishlist.php" class="filter-btn" data-show=".dashboard"><i
+                    <a href="wishlist.php" class="filter-btn"><i
                             class="fal fa-shopping-basket"></i>
                         Wishlist</a>
-                    <a href="login.php" class="filter-btn" data-show=".dashboard"><i
+                    <a href="login.php" class="filter-btn"><i
                             class="fal fa-long-arrow-left"></i>
                         Logout</a>
                 </div>
@@ -57,8 +57,8 @@
                         <div class="account-profile-area">
                             <div class="profile-dp"><img src="assets/images/blog/img-13.jpg" alt="profile-dp"></div>
                             <div class="d-block">
-                                <span class="profile-name"><span>Hi,</span> Rosalina D.</span>
-                                <span class="profile-date d-block">June 23, 2024</span>
+                                <span class="profile-name"><span>Hi,</span> Admin</span>
+                                <span class="profile-date d-block"><?php echo date('F d, Y'); ?></span>
                             </div>
                         </div>
                         <p>From your account dashboard you can view your recent orders, manage your shipping and billing
@@ -68,34 +68,19 @@
                             <div class="activity-item">
                                 <div class="icon"><i class="fas fa-box-check"></i></div>
                                 <span class="title">Active Orders</span>
-                                <span class="value">33</span>
-                            </div>
-                            <div class="activity-item">
-                                <div class="icon"><i class="fas fa-download"></i></div>
-                                <span class="title">Downloads</span>
-                                <span class="value">10</span>
-                            </div>
-                            <div class="activity-item">
-                                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-                                <span class="title">Address</span>
-                                <span class="value">12/A, New Castle, NYC</span>
-                            </div>
-                            <div class="activity-item">
-                                <div class="icon"><i class="fas fa-user"></i></div>
-                                <span class="title">Account Details</span>
-                                <span class="value">33</span>
+                                <span class="value">0</span>
                             </div>
                             <div class="activity-item">
                                 <div class="icon"><i class="fas fa-heart"></i></div>
                                 <span class="title">Wishlist</span>
-                                <span class="value">33</span>
+                                <span class="value">0</span>
                             </div>
-                            <a href="login.php" class="activity-item">
-                                <div class="icon"><i class="fas fa-sign-out-alt"></i></div>
-                                <span class="title">Logout</span>
-                            </a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
                     <div class="account-main orders filterd-items hide">
                         <h2 class="mb--30">My Orders</h2>
                         <table class="table">
