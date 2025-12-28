@@ -40,66 +40,22 @@
                         <div class="rts-menu">
                             <nav class="menus menu-toggle">
                                 <ul class="nav__menu">
-                                    <li class="has-dropdown"><a class="menu-item active1" href="#">Home <i
-                                                class="rt-plus"></i></a>
-                                        <ul class="dropdown-ul">
-                                            <li class="dropdown-li"><a class="dropdown-link active" href="index.php">Main
-                                                    Home</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                href="index-two.php">Fashion
-                                                Home</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                    href="index-nine.php">Fashion
-                                                    Home Two</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                    href="index-three.php">Furniture
-                                                    Home</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                    href="index-four.php">Decor
-                                                    Home</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                    href="index-five.php">Electronics
-                                                    Home</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                    href="index-six.php">Grocery
-                                                    Home</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                    href="index-seven.php">Footwear
-                                                    Home</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                href="index-eight.php">Gaming
-                                                Home</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                href="index-ten.php">Sunglass
-                                                Home</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Shop <i
+                                   
+                                    <li><a class="menu-item" href="index.php">Home</a></li>
+                                    <li class="has-dropdown"><a class="menu-item" href="slidebar-left.php">Shop <i
                                                 class="rt-plus"></i></a>
                                         <ul class="dropdown-ul mega-dropdown">
                                             <li class="mega-dropdown-li">
                                                 <ul class="mega-dropdown-ul">
+
                                                     <li class="dropdown-li"><a class="dropdown-link2"
-                                                            href="shop.php">Shop</a>
+                                                            href="#">Men</a>
                                                     </li>
                                                     <li class="dropdown-li"><a class="dropdown-link2"
-                                                            href="slidebar-left.php">Left Sidebar Shop</a>
+                                                            href="#">Women</a>
                                                     </li>
                                                     <li class="dropdown-li"><a class="dropdown-link2"
-                                                            href="slidebar-right.php">Right Sidebar Shop</a>
-                                                    </li>
-                                                    <li class="dropdown-li"><a class="dropdown-link2"
-                                                            href="full-width-shop.php">Full Width Shop</a>
+                                                            href="#">Kids</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -137,30 +93,8 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Pages <i
-                                                class="rt-plus"></i></a>
-                                        <ul class="dropdown-ul">
-                                            <li class="dropdown-li"><a class="dropdown-link" href="about.php">About</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link" href="faq.php">FAQ's</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link" href="error.php">Error
-                                                    404</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Blog <i
-                                                class="rt-plus"></i></a>
-                                        <ul class="dropdown-ul">
-                                            <li class="dropdown-li"><a class="dropdown-link" href="news.php">Blog</a>
-                                            </li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                    href="news-grid.php">Blog Grid</a></li>
-                                            <li class="dropdown-li"><a class="dropdown-link"
-                                                    href="news-details.php">Blog Details</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a class="menu-item" href="about.php">About Us</a></li>
+                                    <li><a class="menu-item" href="news.php">Blog</a></li>
                                     <li><a class="menu-item" href="contact.php">Contact</a></li>
                                 </ul>
                             </nav>

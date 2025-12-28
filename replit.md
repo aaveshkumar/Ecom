@@ -27,7 +27,21 @@ php -S 0.0.0.0:5000
 - `checkout.php` - Checkout page
 - `contact.php` - Contact page
 
+## Documentation
+For a complete analysis of all website features, see **`WEBSITE_FEATURES.md`** - includes:
+- 10 home page variations
+- 4 shop layouts with filtering/sorting
+- 7 product display types
+- Complete checkout & cart system
+- User account management
+- Blog/news section
+- Contact & FAQ pages
+- Payment & shipping options
+- And much more...
+
 ## Recent Changes
-- **December 28, 2025**: Initial import and setup
-  - Fixed case-sensitive file names in partials folder (Preloader.php → preloader.php, Script.php → script.php, Scroll.php → scroll.php)
+- **December 28, 2025**: Complete setup and features documentation
+  - Fixed case-sensitive file names in partials folder
   - Configured PHP development server on port 5000
+  - Created comprehensive WEBSITE_FEATURES.md documentation
+  - Verified all pages and functionality working correctly
