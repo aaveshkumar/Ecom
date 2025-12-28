@@ -1015,8 +1015,8 @@
 
 
   /*------------------------------------
-		Mobile Menu
-	--------------------------------------*/
+                Mobile Menu
+        --------------------------------------*/
 
   $('#mobile-menu-active').metisMenu();
 
@@ -1034,7 +1034,7 @@
   });
 
   /* Search
-  	-------------------------------------------------------*/
+        -------------------------------------------------------*/
   var $searchWrap = $('.search-wrap');
   var $navSearch = $('.nav-search');
   var $searchClose = $('#search-close');
@@ -1452,6 +1452,43 @@
     $(".anywere").removeClass("bgshow")
   });
 
+
+  // AJAX Add to Cart
+  $(document).on('click', '.add-to-cart-btn', function (e) {
+    e.preventDefault();
+    var productId = $(this).data('product-id');
+    $.ajax({
+      url: 'ajax/add-to-cart.php',
+      method: 'POST',
+      data: { product_id: productId },
+      success: function (response) {
+        if (response.success) {
+          alert(response.message);
+          $('.cart-count').text(response.cart_count);
+        }
+      }
+    });
+  });
+
+  // Newsletter Subscription
+  $(document).on('submit', '.newsletter-form', function (e) {
+    e.preventDefault();
+    var email = $(this).find('input[type="email"]').val();
+    $.ajax({
+      url: 'ajax/newsletter.php',
+      method: 'POST',
+      data: { email: email },
+      success: function (response) {
+        alert(response.message);
+      }
+    });
+  });
+
+  // Quick View Modal Mock
+  $(document).on('click', '.quick-view-btn', function (e) {
+    e.preventDefault();
+    alert('Quick View logic initialized. Product data loading...');
+  });
 
 })(jQuery);
 
